@@ -6,9 +6,11 @@
 ![Poster](images/gradcam-poster.png)
 
 ## Overview
-This project demonstrates the use of **Grad-CAM** (Gradient-weighted Class Activation Mapping) to interpret a **Convolutional Neural Network** (CNN) trained for brain tumor classification. The goal is to visualize which regions of the input image the model focuses on when making predictions, providing insights into its decision-making process.
+This project demonstrates the use of **Grad-CAM (Gradient-weighted Class Activation Mapping)** <sup><a href="https://arxiv.org/abs/1610.02391">[1]</a></sup> to interpret a **Convolutional Neural Network (CNN)** trained for brain tumor classification. The goal is to visualize which regions of the input image the model focuses on when making predictions, providing insights into its decision-making process.
 
-For a quick overview of the project, check out the poster above or download it [here](images/gradcam-poster.png). Alternatively, check out the full implementation in the Jupyter Notebook.
+We demonstrate that even with apparently strong models, CNN visualization can 
+
+For a quick overview of the project, check out the poster above or download it [here](images/gradcam-poster.png). Alternatively, check out the full implementation in the [Jupyter Notebook](brain-tumor-classification-gradcam.ipynb).
 
 ## Key Features
 - **Dataset**: Brain tumor MRI images from [Kaggle](https://www.kaggle.com/).
