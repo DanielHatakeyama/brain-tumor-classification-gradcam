@@ -27,6 +27,7 @@ env/
 .idea/
 *.swp
 *.swo
+.history/
 
 # Ignore system files
 .DS_Store
